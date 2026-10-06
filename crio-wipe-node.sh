@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # Wipe CRI-O ephemeral storage on one node (OCP docs 7.3.4 "Cleaning CRI-O storage").
 #
+# Author: Nasser Almalhawi <almalhawi.nasser@gmail.com>
+#
 # Run with --help for usage.
 #
 # Default transport is `oc debug`, which cannot survive the procedure itself (the
